@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Smartceo_Emspost>
+			<version>1.6.0.0</version>
+		</Smartceo_Emspost>
+	</modules>
+	<global>
+		<models>
+			<smartceo_emspost>
+				<class>Smartceo_Emspost_Model</class>
+			</smartceo_emspost>
+		</models>
+	</global>
+	
+	<default>
+		<carriers>
+			<emspost>
+				<active>1</active>
+				<sallowspecific>0</sallowspecific>
+				<model>smartceo_emspost/carrier_emspost</model>
+				<name>EMS Почта</name>
+				<price>100</price>
+				<title>EMS Почта</title>
+				<type>I</type>
+				<specificerrmsg></specificerrmsg>
+				<handling_type>F</handling_type>
+			</emspost>
+												
+		</carriers>
+
+	</default>
+</config>
+
