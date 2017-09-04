@@ -1,28 +1,28 @@
 {
-    "name": "smartceo/magento-ems-post",
-    "description": "Magento 1.x EMS Post shipping module",
-    "license": "OSL 3.0",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Smartceo",
-            "homepage": "https://smartceo.ru"
-        }
-    ],
-    
-		"repositories":[
-        {
-            "type":"git",
-            "url":"https://github.com/e-v-medvedev/Magento1_EMS_Post"
-        }
-    ],
-    
-    "authors": [
-        {
-            "name": "Evgeny Medvedev",
-            "email": "e.v.medvedev@mail.ru",
-            "homepage": "https://smartceo.ru",
-            "role": "Developer"
-        }
-    ]
+	"name": "smartceo/magento-ems-post",
+	"description": "Magento 1.x EMS Post shipping module",
+	"license": "OSL 3.0",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Smartceo",
+			"homepage": "https://smartceo.ru"
+		}
+	],
+
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/e-v-medvedev/Magento1_EMS_Post/archive/master.zip"
+		}
+	],
+
+	"authors": [
+		{
+			"name": "Evgeny Medvedev",
+			"email": "e.v.medvedev@mail.ru",
+			"homepage": "https://smartceo.ru",
+			"role": "Developer"
+		}
+	]
 }
