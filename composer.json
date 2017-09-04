@@ -3,20 +3,27 @@
 	"description": "Magento 1.x EMS Post shipping module",
 	"license": "OSL 3.0",
 	"type": "project",
-	"authors": [
-		{
-			"name": "Smartceo",
-			"homepage": "https://smartceo.ru"
-		}
-	],
+
+	"require": {
+		"php": ">=5.3.0",
+		"smartceo/magento1-ems-post": "1.2.3"
+	},
 
 	"repositories": [
 		{
-			"type": "git",
-			"url": "https://github.com/e-v-medvedev/Magento1_EMS_Post/archive/master.zip"
+			"type": "package",
+			"package": {
+				"name": "smartceo/magento1-ems-post",
+				"version": "1.2.3",
+				"source": {
+					"type": "git",
+					"url": "https://github.com/e-v-medvedev/Magento1_EMS_Post",
+					"reference": "master"
+				}
+			}
 		}
 	],
-
+    
 	"authors": [
 		{
 			"name": "Evgeny Medvedev",
@@ -24,5 +31,11 @@
 			"homepage": "https://smartceo.ru",
 			"role": "Developer"
 		}
-	]
+	],
+	
+ "scripts": {
+        "post-package-install": [
+            "php -r \" system ('cp -R ./vendor/smartceo/magento1-ems-post/app/* ./app && rm -R ./vendor/smartceo/magento1-ems-post '); \""
+        ]
+    }	
 }
