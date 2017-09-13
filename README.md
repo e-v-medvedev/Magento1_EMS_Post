@@ -1,5 +1,5 @@
 # Magento1_EMS_Post
-##Installation
+## Installation
 Add this to `repository` section of composer.json
   {
 			"type": "package",
