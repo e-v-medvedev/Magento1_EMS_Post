@@ -1,5 +1,5 @@
 # Magento1_EMS_Post
-## Installation
+## Installation instructions
 Add this
 ```
 {
@@ -26,5 +26,7 @@ Add this to `script -> post-package-install` section
 ```
 "php -r \" system ('cp -R ./vendor/smartceo/magento1-ems-post/app/* ./app && rm -R ./vendor/smartceo/magento1-ems-post '); \""
 ```
-
-    
+Run
+```
+$ php composer.phar install
+```    
