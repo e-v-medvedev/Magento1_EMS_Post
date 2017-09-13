@@ -1,6 +1,6 @@
 # Magento1_EMS_Post
 ## Installation instructions
-Add this
+Add to "repository" section of composer.json:
 ```
 {
   "type": "package",
@@ -15,14 +15,12 @@ Add this
   }
 }
 ```
-to "repository" section of composer.json.
-
-Add this to `require` section
+Add to `require` section of composer.json:
 ```
 "smartceo/magento1-ems-post": "1.0.0"
 ```
 
-Add this to `script -> post-package-install` section
+Add to `script -> post-package-install` section of composer.json:
 ```
 "php -r \" system ('cp -R ./vendor/smartceo/magento1-ems-post/app/* ./app && rm -R ./vendor/smartceo/magento1-ems-post '); \""
 ```
