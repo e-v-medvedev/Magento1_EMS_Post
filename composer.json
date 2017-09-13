@@ -9,7 +9,7 @@
 		"smartceo/magento1-ems-post": "1.0.0"
 	},
 	
-  "minimum-stability": "alfa",
+  "minimum-stability": "stable",
 
 	"repositories": [
 		{
