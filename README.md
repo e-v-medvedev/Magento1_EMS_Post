@@ -2,18 +2,18 @@
 ## Installation
 Add this
 
->  {
->			"type": "package",
->			"package": {
->				"name": "smartceo/magento1-ems-post",
->				"version": "1.0.0",
->				"source": {
->					"type": "git",
->					"url": "https://github.com/e-v-medvedev/Magento1_EMS_Post",
->					"reference": "master"
->				}
->			}
->		}
+>{
+>  "type": "package",
+>  "package": {
+>    "name": "smartceo/magento1-ems-post",
+>    "version": "1.0.0",
+>    "source": {
+>     "type": "git",
+>     "url": "https://github.com/e-v-medvedev/Magento1_EMS_Post",
+>     "reference": "master"
+>     }
+>  }
+>}
 to "repository" section of composer.json
 
 Add this to `require` section
