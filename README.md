@@ -1,3 +1,6 @@
+# Предупреждение
+Модуль делался под конкретного заказчика. Поддержка и развитие модуля прекращены.
+
 # Magento1_EMS_Post
 ## Installation instructions
 Add to "repository" section of composer.json:
